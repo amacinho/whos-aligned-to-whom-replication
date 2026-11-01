@@ -1,0 +1,251 @@
+pid,decision,lean,result,human_pattern,human_pattern_lc,human_h4_status,machine_pattern,machine_pattern_lc,machine_h4_status,agree,h4_final,h4_final_source,h4_initial_side,h4_took_side_pre,h4_lean_voiced,h4_ep_side,h4_ep_voice
+P01,d1,A,A,,,,AI:D1A > H:D1A > AI:D1A > R:D1A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P01,d2,B,B,,,,AI:~D2 > H:D2A > AI:D2A > AI:!D2A > AI:D2B > H:~D2B > AI:D2B > AI:!D2A > AI:D2B > R:D2B,H:C > AI:C > AI:!C > AI:L > AI:!C > AI:L > R:L,opposed,,opposed,machine only,A,1,1,2,2
+P01,d3,A,A,,,,AI:D3A > AI:!D3B > H:?D3A > AI:!D3B > AI:D3A > H:~D3A > AI:!D3B > AI:D3A > R:D3A,AI:L > AI:!C > AI:L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P01,d4,B,B,,,,AI:D4B > AI:!D4A > H:?D4B > AI:D4B > H:?D4B > AI:D4B > H:?D4 > AI:D4B > H:~D4B > AI:D4B > AI:!D4A > R:D4B,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P01,d5,A,E,,,,AI:!D5A > AI:!D5B > AI:D5E > H:!D5 > AI:!D5A > AI:!D5B > AI:D5E > H:~D5 > AI:!D5A > AI:D5E > H:~D5 > AI:!D5B > AI:D5E > AI:!D5A > AI:D5E > R:D5E,AI:!L > AI:!C > AI:l > AI:!L > AI:!C > AI:l > AI:!L > AI:l > AI:!C > AI:l > AI:!L > AI:l > R:l,does not qualify,,does not qualify,machine only,,0,1,,3
+P03,d1,A,A,AI:D1A > H:?D1 > AI:D1A > R:D1A,AI:L > R:L,does not qualify,AI:D1A > H:?D1 > AI:D1A > AI:!D1B > H:~D1 > AI:D1A > R:D1A,AI:L > AI:!C > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P03,d2,B,A,AI:!D2B > AI:D2A > AI:D2B > H:D2B > AI:D2A > AI:!D2B > H:?D2 > AI:D2A > AI:!D2B > H:D2A > R:D2A,AI:!L > AI:C > AI:L > H:L > AI:C > AI:!L > AI:C > AI:!L > H:C > R:C,does not qualify,AI:!D2B > AI:D2B > AI:!D2A > H:D2B > H:!D2A > AI:D2B > AI:!D2A > AI:!D2B > AI:D2A > H:?D2 > AI:D2A > H:?D2 > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > AI:!D2B > AI:!D2B > R:D2A,AI:!L > AI:L > AI:!C > H:L > AI:!L > AI:C > AI:!L > AI:C > AI:!L > R:C,does not qualify,1,does not qualify,agreed,,0,1,,2
+P03,d3,A,A,AI:D3A > R:D3A,AI:L > R:L,does not qualify,AI:D3A > R:D3A,AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P03,d4,A,A,AI:D4A > R:D4A,AI:L > R:L,does not qualify,AI:D4A > R:D4A,AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,4
+P03,d5,B,A,AI:D5E > H:!D5E > AI:D5A > R:D5A,AI:l > H:!l > AI:C > R:C,does not qualify,AI:!D5B > AI:D5E > AI:!D5A > AI:!D5B > H:!D5E > AI:D5A > AI:!D5E > AI:D5E > H:~D5 > AI:D5A > R:D5A,AI:!L > AI:l > AI:!C > AI:!L > H:!l > AI:C > AI:!l > AI:l > AI:C > R:C,does not qualify,1,does not qualify,agreed,,0,1,,9
+P04,d1,A,A,,,,H:~D1 > AI:D1A > AI:!D1B > H:~D1 > AI:D1A > R:D1A,AI:L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P04,d2,B,B,,,,AI:D2B > AI:!D2A > H:~D2 > AI:D2B > AI:!D2A > R:D2B,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P04,d3,A,A,,,,AI:D3A > R:D3A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P04,d4,B,B,,,,AI:D4B > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P04,d5,B,B,,,,H:~D5 > AI:D5B > H:~D5 > AI:~D5B > H:D5B > R:D5B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P05,d1,A,B,,,,AI:!D1B > H:D1B > AI:~D1 > H:~D1B > AI:D1A > AI:!D1B > H:!D1B > H:D1B > AI:D1A > AI:!D1B > AI:!D1B > AI:!D1B > H:!D1A > H:D1B > AI:D1B > AI:!D1A > AI:!D1B > H:D1B > AI:D1B > H:~D1B > AI:~D1B > H:~D1B > R:D1B,AI:!C > H:C > AI:L > AI:!C > H:!C > H:C > AI:L > AI:!C > H:!L > H:C > AI:C > AI:!C > R:C,opposed,,opposed,machine only,B,1,1,2,14
+P05,d2,A,A,,,,AI:D2A > AI:!D2B > H:D2B > AI:D2A > AI:!D2B > AI:!D2B > H:!D2B > H:D2A > AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > H:D2A > AI:D2A > H:~D2A > R:D2A,AI:L > AI:!C > H:C > AI:L > AI:!C > H:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P05,d3,A,A,,,,AI:D3A > H:D3A > AI:~D3A > H:D3A > AI:D3A > AI:!D3B > H:D3A > AI:D3A > H:~D3A > R:D3A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,13
+P05,d4,A,A,,,,H:D4A > AI:D4A > AI:!D4B > R:D4A,H:L > AI:L > R:L,aligned,,aligned,machine only,A,1,1,3,15
+P05,d5,A,B,,,,H:D5A > AI:!D5B > AI:D5E > H:!D5E > AI:!D5E > AI:D5B > AI:!D5A > AI:!D5E > H:?D5 > AI:D5B > H:D5B > AI:D5B > H:~D5B > R:D5B,H:L > AI:!C > AI:l > H:!l > AI:!l > AI:C > AI:!L > AI:!l > AI:C > H:C > R:C,aligned,,aligned,machine only,A,1,1,14,22
+P06,d1,B,B,,,,H:~D1B > AI:D1B > H:D1B > AI:D1B > R:D1B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P06,d2,A,A,,,,H:D2B > AI:D2B > AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > R:D2A,H:C > AI:C > AI:!C > AI:L > H:L > R:L,opposed,,opposed,machine only,B,1,1,4,4
+P06,d3,A,A,,,,H:D3A > AI:D3A > R:D3A,H:L > AI:L > R:L,aligned,,aligned,machine only,A,1,1,5,5
+P06,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P06,d5,A,E,,,,AI:D5A > AI:D5E > AI:!D5B > H:!D5B > R:D5E,AI:L > AI:l > AI:!C > H:!C > R:l,does not qualify,,does not qualify,machine only,,0,1,,6
+P07,d1,A,A,AI:D1A > H:D1A > R:D1A,AI:L > H:L > R:L,does not qualify,AI:!D1B > AI:D1A > R:D1A,AI:!C > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P07,d2,B,B,AI:D2B > AI:!D2A > H:D2B > R:D2B,AI:L > AI:!C > H:L > R:L,does not qualify,AI:~D2 > H:?D2 > AI:~D2 > H:?D2 > AI:D2B > AI:!D2A > H:~D2B > AI:D2B > H:!D2A > R:D2B,AI:L > AI:!C > AI:L > H:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P07,d3,B,B,AI:D3B > H:D3B > AI:D3B > R:D3B,AI:L > H:L > R:L,does not qualify,AI:D3B > AI:!D3A > AI:D3B > H:?D3 > AI:D3B > R:D3B,AI:L > AI:!C > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P07,d4,A,A,AI:D4A > H:D4A > R:D4A,AI:L > H:L > R:L,does not qualify,AI:D4A > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P07,d5,A,A,AI:D5A > R:D5A,AI:L > R:L,does not qualify,AI:!D5A > AI:D5A > R:D5A,AI:!L > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P08,d1,B,B,,,,H:D1A > AI:D1A > AI:!D1A > AI:D1B > H:~D1A > AI:D1B > AI:!D1A > AI:D1B > H:D1A > H:D1B > AI:D1A > AI:D1B > R:D1B,H:C > AI:C > AI:!C > AI:L > AI:!C > AI:L > H:C > H:L > AI:C > AI:L > R:L,opposed,,opposed,machine only,A,1,1,4,4
+P08,d2,A,A,,,,H:D2A > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > R:D2A,H:L > AI:L > R:L,aligned,,aligned,machine only,A,1,1,4,4
+P08,d3,B,B,,,,AI:!D3A > AI:D3B > H:~D3 > AI:D3B > R:D3B,AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P08,d4,B,B,,,,H:~D4B > AI:D4B > H:D4 > AI:D4B > AI:!D4 > AI:D4A > AI:D4 > H:D4B > AI:D4B > H:~D4B > AI:~D4B > R:D4B,AI:L > AI:C > H:L > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P08,d5,B,E,,,,H:~D5 > AI:D5E > AI:!D5A > H:~D5 > AI:!D5A > AI:D5E > AI:D5B > H:~D5E > R:D5E,AI:l > AI:!C > AI:l > AI:L > R:l,does not qualify,,does not qualify,machine only,,0,1,,4
+P09,d1,B,B,AI:!D1A > AI:D1B > H:D1B > AI:D1B > R:D1B,AI:!C > AI:L > H:L > R:L,does not qualify,AI:!D1A > AI:D1B > H:D1B > AI:D1B > AI:!D1A > H:~D1B > AI:~D1B > H:~D1B > AI:~D1B > R:D1B,AI:!C > AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P09,d2,B,B,AI:~D2 > H:D2A > AI:!D2A > AI:D2B > H:~D2B > AI:D2B > H:D2B > AI:D2B > R:D2B,H:C > AI:!C > AI:L > H:L > R:L,opposed,AI:!D2B > H:?D2A > AI:D2A > AI:!D2A > AI:D2B > H:?D2 > AI:D2B > AI:!D2A > H:~D2B > AI:~D2B > H:D2B > AI:D2B > AI:!D2A > H:~D2A > AI:D2B > H:~D2A > AI:~D2B > H:D2B > R:D2B,AI:!L > AI:C > AI:!C > AI:L > AI:!C > H:L > R:L,does not qualify,0,opposed,adjudicated,A,1,1,3,3
+P09,d3,B,B,AI:D3B > R:D3B,AI:L > R:L,does not qualify,AI:D3B > H:~D3B > R:D3B,AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,4
+P09,d4,A,A,AI:D4A > R:D4A,AI:L > R:L,does not qualify,H:~D4A > R:D4A,R:L,does not qualify,1,does not qualify,agreed,,0,1,,6
+P09,d5,A,B,AI:D5E > AI:!D5A > H:?D5 > AI:D5E > AI:!D5A > H:!D5E > H:D5B > R:D5B,AI:l > AI:!L > AI:l > AI:!L > H:!l > H:C > R:C,does not qualify,AI:!D5A > AI:!D5B > AI:D5E > AI:!D5B > H:?D5B > AI:!D5B > AI:!D5A > AI:D5E > H:!D5A > AI:!D5A > AI:D5B > AI:!D5E > H:D5B > AI:D5B > H:~D5E > AI:~D5B > H:D5B > AI:D5B > R:D5B,AI:!L > AI:!C > AI:l > AI:!C > AI:!L > AI:l > H:!L > AI:!L > AI:C > AI:!l > H:C > R:C,does not qualify,1,does not qualify,agreed,,0,1,,4
+P10,d1,A,B,,,,H:D1B > AI:D1A > AI:!D1B > H:!D1A > H:D1B > AI:D1B > AI:!D1B > AI:D1A > H:D1B > H:!D1A > AI:D1B > AI:!D1B > AI:D1A > H:D1B > AI:!D1B > AI:D1A > H:D1B > AI:D1B > AI:!D1B > AI:D1A > R:D1B,H:C > AI:L > AI:!C > H:!L > H:C > AI:C > AI:!C > AI:L > H:C > H:!L > AI:C > AI:!C > AI:L > H:C > AI:!C > AI:L > H:C > AI:C > AI:!C > AI:L > R:C,opposed,,opposed,machine only,B,1,1,15,15
+P10,d2,A,A,,,,AI:!D2B > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > H:~D2B > AI:D2A > AI:!D2B > AI:!D2B > H:~D2 > AI:!D2A > AI:!D2B > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > AI:!D2A > H:D2A > H:!D2B > AI:~D2A > H:~D2A > AI:~D2A > H:D2A > AI:D2A > AI:!D2B > R:D2A,AI:!C > AI:L > AI:!C > AI:L > AI:!C > AI:!L > AI:!C > AI:L > AI:!C > AI:!L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,15
+P10,d3,A,A,,,,AI:D3A > H:~D3B > AI:!D3B > AI:D3B > H:D3A > AI:D3A > R:D3A,AI:L > AI:!C > AI:C > H:L > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,30
+P10,d4,A,A,,,,AI:~D4B > R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P10,d5,A,A,,,,AI:!D5A > AI:!D5B > AI:D5A > AI:!D5A > R:D5A,AI:!L > AI:!C > AI:L > AI:!L > R:L,does not qualify,,does not qualify,machine only,,0,1,,30
+P11,d1,B,B,,,,AI:~D1 > H:~D1 > AI:D1B > AI:!D1A > AI:!D1A > AI:!D1A > R:D1B,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P11,d2,B,A,,,,AI:~D2 > H:~D2 > AI:D2B > AI:!D2A > AI:!D2A > AI:!D2B > AI:D2A > AI:!D2B > AI:!D2B > R:D2A,AI:L > AI:!C > AI:!L > AI:C > AI:!L > R:C,does not qualify,,does not qualify,machine only,,0,1,,6
+P11,d3,B,A,,,,AI:D3B > AI:D3A > AI:!D3B > R:D3A,AI:L > AI:C > AI:!L > R:C,does not qualify,,does not qualify,machine only,,0,1,,6
+P11,d4,B,B,,,,AI:D4B > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,6
+P11,d5,A,E,,,,AI:~D5 > H:~D5 > AI:!D5A > AI:!D5B > AI:D5E > H:~D5 > AI:!D5B > AI:!D5A > AI:D5E > R:D5E,AI:!L > AI:!C > AI:l > AI:!C > AI:!L > AI:l > R:l,does not qualify,,does not qualify,machine only,,0,1,,8
+P12,d1,A,A,,,,H:D1B > AI:D1B > AI:!D1B > AI:D1A > H:D1A > AI:D1A > H:?D1 > AI:!D1 > AI:D1A > H:D1A > AI:D1A > H:~D1B > AI:D1A > AI:!D1B > AI:D1B > AI:!D1B > AI:D1A > AI:!D1B > R:D1A,H:C > AI:C > AI:!C > AI:L > H:L > AI:C > AI:!C > AI:L > R:L,opposed,,opposed,machine only,B,1,1,3,3
+P12,d2,A,A,,,,AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > AI:!D2B > H:~D2A > AI:!D2B > AI:D2A > R:D2A,AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P12,d3,A,A,,,,AI:D3A > AI:!D3B > R:D3A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,11
+P12,d4,B,B,,,,AI:D4A > AI:D4B > AI:!D4A > R:D4B,AI:C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,7
+P12,d5,B,A,,,,AI:!D5A > AI:!D5B > AI:D5E > AI:D5A > H:D5A > AI:D5A > AI:D5E > AI:!D5A > R:D5A,AI:!C > AI:!L > AI:l > AI:C > H:C > AI:l > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,1,,11
+P14,d1,B,B,,,,H:?D1 > AI:D1B > AI:!D1A > H:D1B > AI:D1B > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P14,d2,A,A,,,,H:?D2 > AI:D2A > AI:!D2B > AI:D2A > H:?D2 > AI:!D2B > AI:D2A > H:D2A > AI:D2A > R:D2A,AI:L > AI:!C > AI:L > AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P14,d3,A,A,,,,AI:D3A > AI:!D3B > H:D3A > AI:D3A > R:D3A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P14,d4,A,A,,,,AI:D4A > H:~D4 > AI:D4A > H:D4A > AI:D4A > R:D4A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P14,d5,A,A,,,,H:?D5 > AI:D5A > AI:!D5A > AI:!D5B > H:~D5 > AI:D5A > R:D5A,AI:L > AI:!L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P15,d1,A,A,,,,AI:D1A > AI:!D1B > H:~D1A > R:D1A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P15,d2,B,B,,,,H:D2B > AI:D2B > AI:!D2A > AI:!D2A > AI:D2B > H:~D2B > R:D2B,H:L > AI:L > R:L,aligned,,aligned,machine only,B,1,1,4,4
+P15,d3,B,B,,,,AI:D3B > H:~D3B > R:D3B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P15,d4,B,B,,,,AI:D4B > H:~D4A > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P15,d5,B,B,,,,AI:~D5B > H:~D5 > AI:D5B > AI:!D5A > AI:D5E > H:~D5B > R:D5B,AI:L > AI:!C > AI:l > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P16,d1,A,A,,,,AI:D1A > AI:!D1B > H:D1A > AI:D1A > H:~D1A > AI:~D1A > H:D1A > R:D1A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P16,d2,A,A,,,,H:?D2A > AI:D2A > AI:!D2B > H:D2A > AI:D2A > AI:!D2B > H:~D2A > AI:~D2A > H:D2A > R:D2A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P16,d3,B,A,,,,AI:~D3 > H:D3A > AI:D3A > AI:!D3A > AI:D3B > H:D3A > R:D3A,H:C > AI:C > AI:!C > AI:L > H:C > R:C,opposed,,opposed,machine only,A,1,1,6,6
+P16,d4,B,B,,,,AI:D4B > H:D4B > AI:D4B > H:~D4B > AI:~D4B > H:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P16,d5,A,A,,,,AI:D5A > AI:!D5E > AI:D5A > H:~D5A > AI:~D5A > H:D5A > R:D5A,AI:L > AI:!l > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P17,d1,B,B,,,,H:~D1B > AI:D1B > AI:!D1A > H:D1B > AI:D1B > AI:!D1A > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P17,d2,A,A,,,,AI:D2A > AI:!D2B > H:D2A > AI:D2A > AI:!D2B > R:D2A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P17,d3,B,B,,,,AI:D3B > AI:!D3A > H:D3B > AI:D3B > R:D3B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P17,d4,A,A,,,,AI:D4A > AI:!D4B > H:D4A > AI:D4A > R:D4A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P17,d5,B,E,,,,H:~D5 > AI:!D5A > AI:D5E > R:D5E,AI:!C > AI:l > R:l,does not qualify,,does not qualify,machine only,,0,1,,1
+P18,d1,A,A,,,,H:D1A > R:D1A,H:L > R:L,does not qualify,,does not qualify,machine only,A,1,0,0,
+P18,d2,A,B,,,,H:D2B > AI:!D2B > AI:D2A > H:D2B > R:D2B,H:C > AI:!C > AI:L > H:C > R:C,opposed,,opposed,machine only,B,1,1,0,1
+P18,d3,B,A,,,,H:D3A > AI:!D3A > AI:D3B > R:D3A,H:C > AI:!C > AI:L > R:C,opposed,,opposed,machine only,A,1,1,1,1
+P18,d4,B,A,,,,H:D4A > R:D4A,H:C > R:C,does not qualify,,does not qualify,machine only,A,1,0,1,
+P18,d5,A,A,,,,AI:~D5 > H:D5A > R:D5A,H:L > R:L,does not qualify,,does not qualify,machine only,A,1,0,1,
+P19,d1,A,A,,,,AI:D1A > H:~D1 > AI:D1A > H:D1A > AI:D1A > H:~D1A > R:D1A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P19,d2,A,A,,,,AI:D2A > AI:!D2B > H:D2B > AI:D2B > AI:D2A > AI:!D2A > H:?D2 > AI:D2A > AI:!D2B > H:D2B > AI:~D2 > H:D2B > AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > AI:!D2B > H:~D2B > AI:D2A > H:~D2A > AI:~D2A > R:D2A,AI:L > AI:!C > H:C > AI:C > AI:L > AI:!L > AI:L > AI:!C > H:C > AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P19,d3,A,A,,,,AI:D3A > H:~D3 > AI:D3A > AI:!D3B > AI:D3A > H:~D3A > R:D3A,AI:L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P19,d4,B,B,,,,AI:D4B > H:~D4B > AI:~D4B > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P19,d5,A,A,,,,AI:!D5B > AI:D5A > H:~D5A > AI:~D5A > H:~D5A > AI:~D5A > R:D5A,AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,15
+P20,d1,A,A,,,,AI:~D1 > H:D1A > AI:D1A > AI:!D1B > H:~D1B > AI:D1A > H:D1B > AI:D1B > AI:D1A > AI:!D1B > H:D1B > AI:D1B > AI:D1A > H:D1B > AI:D1B > AI:D1A > H:D1A > H:!D1B > AI:D1A > R:D1A,H:L > AI:L > H:C > AI:C > AI:L > AI:!C > H:C > AI:C > AI:L > H:C > AI:C > AI:L > H:L > R:L,aligned,,aligned,machine only,A,1,1,2,2
+P20,d2,A,A,,,,AI:D2A > AI:!D2B > H:?D2A > AI:~D2A > H:?D2 > AI:!D2B > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > H:D2A > AI:D2A > AI:!D2A > H:~D2A > AI:D2A > H:?D2A > AI:D2A > AI:!D2B > R:D2A,AI:L > AI:!C > AI:L > AI:!C > H:L > AI:!L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P20,d3,B,A,,,,AI:D3B > H:?D3 > AI:D3B > AI:!D3A > H:~D3 > AI:~D3B > H:~D3 > R:D3A,AI:L > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,1,,2
+P20,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P20,d5,A,A,,,,AI:D5A > AI:!D5B > AI:D5E > AI:D5E > AI:!D5A > AI:!D5B > AI:!D5A > H:~D5E > AI:D5A > R:D5A,AI:L > AI:!C > AI:l > AI:!L > AI:!C > AI:!L > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P22,d1,A,A,,,,AI:D1A > R:D1A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P22,d2,A,A,,,,AI:D2A > AI:!D2B > H:~D2 > AI:D2A > AI:!D2B > R:D2A,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P22,d3,B,B,,,,AI:D3B > R:D3B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P22,d4,A,A,,,,AI:D4A > AI:!D4B > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P22,d5,B,A,,,,AI:D5E > AI:!D5A > AI:D5A > H:D5A > AI:D5A > AI:D5E > AI:D5A > H:D5A > AI:D5A > H:D5 > AI:~D5E > H:D5A > H:!D5E > AI:D5A > AI:!D5B > R:D5A,AI:l > AI:!C > AI:C > H:C > AI:l > AI:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,3
+P23,d1,B,B,AI:D1B > R:D1B,AI:L > R:L,does not qualify,AI:D1B > AI:!D1A > H:?D1 > AI:D1B > AI:!D1A > AI:!D1A > R:D1B,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P23,d2,B,B,AI:!D2A > AI:D2B > R:D2B,AI:!C > AI:L > R:L,does not qualify,AI:!D2B > AI:!D2A > AI:D2B > H:?D2 > AI:!D2A > AI:D2B > AI:!D2B > AI:!D2A > R:D2B,AI:!L > AI:!C > AI:L > AI:!C > AI:L > AI:!L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P23,d3,B,B,AI:D3B > R:D3B,AI:L > R:L,does not qualify,AI:D3B > H:?D3 > AI:D3B > AI:!D3A > AI:!D3A > R:D3B,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P23,d4,A,A,AI:D4A > R:D4A,AI:L > R:L,does not qualify,AI:D4A > AI:!D4B > H:?D4 > AI:D4A > AI:!D4B > R:D4A,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P23,d5,B,B,AI:~D5 > H:?D5 > AI:D5B > AI:!D5A > H:?D5 > AI:D5E > H:!D5E > AI:D5B > R:D5B,AI:L > AI:!C > AI:l > H:!l > AI:L > R:L,does not qualify,AI:~D5 > H:~D5B > AI:D5B > AI:!D5A > H:?D5 > AI:!D5A > AI:!D5B > AI:D5E > H:D5E > H:!D5E > AI:D5B > AI:D5E > R:D5B,AI:L > AI:!C > AI:!L > AI:l > H:l > H:!l > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P24,d1,B,B,,,,H:~D1 > AI:D1B > AI:!D1A > AI:!D1A > AI:!D1A > R:D1B,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P24,d2,B,B,,,,AI:!D2B > H:~D2 > AI:D2B > AI:!D2A > R:D2B,AI:!L > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P24,d3,A,A,,,,H:~D3 > AI:D3A > R:D3A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P24,d4,B,B,,,,AI:D4B > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P24,d5,B,B,,,,H:~D5 > AI:D5B > AI:!D5A > AI:!D5A > R:D5B,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P25,d1,A,B,H:D1B > AI:!D1B > AI:D1A > H:D1B > AI:!D1B > AI:D1B > AI:D1A > R:D1B,H:C > AI:!C > AI:L > H:C > AI:!C > AI:C > AI:L > R:C,opposed,H:D1B > AI:!D1B > H:?D1 > AI:D1A > H:D1B > AI:D1A > AI:!D1B > AI:D1B > H:~D1B > AI:D1B > AI:!D1B > AI:!D1B > AI:D1A > H:~D1A > AI:~D1B > R:D1B,H:C > AI:!C > AI:L > H:C > AI:L > AI:!C > AI:C > AI:!C > AI:L > R:C,opposed,1,opposed,adjudicated,B,1,1,0,1
+P25,d2,A,A,H:D2A > AI:D2A > R:D2A,H:L > AI:L > R:L,aligned,H:D2A > AI:D2A > H:?D2A > AI:D2A > AI:!D2B > AI:!D2B > R:D2A,H:L > AI:L > R:L,aligned,1,aligned,agreed,A,1,1,0,2
+P25,d3,B,B,AI:~D3B > R:D3B,R:L,does not qualify,AI:~D3B > R:D3B,R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P25,d4,B,B,AI:~D4 > H:D4B > AI:D4B > R:D4B,H:L > AI:L > R:L,aligned,AI:?D4 > H:D4B > AI:D4B > H:~D4B > R:D4B,H:L > AI:L > R:L,aligned,1,aligned,adjudicated,B,1,1,2,2
+P25,d5,A,E,AI:~D5 > R:D5E,R:l,does not qualify,H:~D5 > AI:D5E > H:~D5E > R:D5E,AI:l > R:l,does not qualify,1,does not qualify,agreed,,0,0,,
+P26,d1,B,B,H:D1B > AI:D1B > AI:!D1A > R:D1B,H:L > AI:L > R:L,aligned,H:D1B > AI:D1B > AI:!D1A > AI:!D1A > R:D1B,H:L > AI:L > R:L,aligned,1,aligned,agreed,B,1,1,1,1
+P26,d2,B,B,AI:D2B > AI:!D2A > R:D2B,AI:L > AI:!C > R:L,does not qualify,AI:D2B > AI:!D2A > H:D2B > AI:D2B > AI:!D2A > H:D2B > AI:D2B > AI:!D2A > H:~D2B > R:D2B,AI:L > AI:!C > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P26,d3,B,B,AI:D3B > R:D3B,AI:L > R:L,does not qualify,AI:D3B > R:D3B,AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P26,d4,A,A,AI:D4A > R:D4A,AI:L > R:L,does not qualify,AI:D4A > AI:!D4B > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P26,d5,B,B,AI:D5B > R:D5B,AI:L > R:L,does not qualify,AI:D5B > AI:!D5A > AI:D5B > AI:!D5A > R:D5B,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P29,d1,B,B,,,,H:D1B > AI:D1B > AI:!D1A > AI:!D1A > H:~D1B > R:D1B,H:L > AI:L > R:L,aligned,,aligned,machine only,B,1,1,3,4
+P29,d2,A,A,,,,AI:D2A > AI:!D2B > AI:!D2B > AI:!D2B > H:~D2A > R:D2A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P29,d3,B,B,,,,AI:D3B > AI:!D3A > AI:!D3A > H:~D3B > R:D3B,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P29,d4,A,A,,,,AI:D4A > AI:!D4B > AI:!D4B > H:~D4A > R:D4A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P29,d5,A,A,,,,AI:D5A > H:D5A > AI:D5E > AI:D5A > H:~D5A > AI:D5A > R:D5A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P30,d1,B,B,,,,H:~D1A > AI:D1B > AI:!D1A > H:D1B > AI:D1B > AI:!D1A > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P30,d2,B,A,,,,AI:!D2B > AI:D2B > AI:!D2A > H:D2B > H:!D2B > AI:!D2B > AI:D2A > AI:!D2A > H:D2A > AI:D2A > AI:!D2B > R:D2A,AI:!L > AI:L > AI:!C > H:L > H:!L > AI:!L > AI:C > AI:!C > H:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,5
+P30,d3,B,B,,,,H:D3B > AI:D3B > AI:!D3A > H:D3B > AI:D3B > R:D3B,H:L > AI:L > R:L,aligned,,aligned,machine only,B,1,1,4,5
+P30,d4,B,A,,,,AI:D4B > H:!D4B > H:D4A > AI:D4A > H:~D4B > R:D4A,AI:L > H:!L > H:C > AI:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,5
+P30,d5,B,A,,,,AI:!D5A > H:D5E > AI:D5E > AI:!D5A > H:!D5E > H:D5A > AI:D5A > AI:!D5B > R:D5A,AI:!C > H:l > AI:l > H:!l > H:C > AI:C > R:C,aligned,,aligned,machine only,B,1,1,6,6
+P31,d1,B,B,,,,AI:~D1B > H:D1A > AI:!D1A > AI:D1B > H:D1B > AI:D1B > AI:D1A > H:D1B > AI:D1B > R:D1B,H:C > AI:!C > AI:L > H:L > AI:C > H:L > AI:L > R:L,opposed,,opposed,machine only,A,1,1,3,3
+P31,d2,B,B,,,,AI:!D2B > H:!D2B > AI:!D2B > H:~D2B > AI:~D2 > H:D2B > AI:D2B > AI:!D2A > R:D2B,AI:!L > H:!L > AI:!L > H:L > AI:L > R:L,aligned,,aligned,machine only,B,1,1,6,6
+P31,d3,A,A,,,,AI:D3A > H:~D3A > AI:D3A > R:D3A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,6
+P31,d4,A,A,,,,AI:~D4B > R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P31,d5,B,B,,,,H:~D5 > AI:~D5 > H:~D5 > AI:D5B > AI:!D5A > R:D5B,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,6
+P33,d1,B,B,,,,AI:D1B > AI:!D1A > H:D1B > AI:D1B > AI:!D1A > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P33,d2,B,B,,,,H:~D2B > AI:!D2B > AI:D2B > AI:!D2A > H:D2B > AI:D2B > AI:!D2A > AI:D2B > H:!D2A > R:D2B,AI:!L > AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P33,d3,A,A,,,,AI:D3A > AI:!D3B > AI:!D3B > R:D3A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P33,d4,A,A,,,,AI:D4A > R:D4A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P33,d5,B,B,,,,AI:D5B > H:D5B > R:D5B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P35,d1,A,A,,,,H:D1A > R:D1A,H:L > R:L,does not qualify,,does not qualify,machine only,A,1,0,2,
+P35,d2,A,B,,,,AI:D2A > AI:!D2B > H:D2A > H:D2B > R:D2B,AI:L > AI:!C > H:L > H:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,2
+P35,d3,A,?,,,,R:D3?,R:?,does not qualify,,does not qualify,machine only,,0,0,,
+P35,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P35,d5,B,B,,,,H:~D5 > AI:~D5 > H:~D5A > R:D5B,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P36,d1,B,B,AI:D1B > H:D1B > AI:D1B > AI:!D1A > R:D1B,AI:L > H:L > R:L,does not qualify,AI:D1B > AI:!D1A > AI:D1A > AI:D1B > AI:!D1A > H:D1B > AI:D1B > R:D1B,AI:L > AI:!C > AI:C > AI:L > AI:!C > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,12
+P36,d2,A,A,AI:~D2A > H:~D2A > AI:~D2A > H:D2A > AI:D2A > R:D2A,H:L > AI:L > R:L,aligned,AI:D2A > H:D2A > AI:D2A > H:D2A > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > R:D2A,AI:L > H:L > R:L,does not qualify,0,aligned,adjudicated,A,1,1,13,16
+P36,d3,B,A,AI:D3B > H:!D3B > AI:!D3A > AI:D3B > H:D3B > AI:D3B > R:D3A,AI:L > H:!L > AI:!C > AI:L > H:L > R:C,does not qualify,AI:!D3A > AI:D3B > H:!D3B > AI:D3A > AI:!D3A > AI:D3B > H:~D3B > AI:D3B > R:D3A,AI:!C > AI:L > H:!L > AI:C > AI:!C > AI:L > R:C,does not qualify,1,does not qualify,agreed,,0,1,,13
+P36,d4,B,B,AI:D4B > H:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,AI:!D4A > AI:D4B > H:D4B > AI:D4B > R:D4B,AI:!C > AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,13
+P36,d5,A,E,AI:!D5A > AI:!D5B > AI:D5E > R:D5E,AI:!L > AI:!C > AI:l > R:l,does not qualify,AI:!D5A > AI:!D5B > AI:D5E > AI:D5E > AI:!D5A > AI:!D5B > AI:D5E > AI:D5 > R:D5E,AI:!L > AI:!C > AI:l > AI:!L > AI:!C > AI:l > R:l,does not qualify,1,does not qualify,agreed,,0,1,,15
+P37,d1,A,A,AI:D1A > H:D1A > R:D1A,AI:L > H:L > R:L,does not qualify,AI:D1A > H:D1A > AI:~D1A > R:D1A,AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,4
+P37,d2,A,A,AI:!D2B > AI:D2A > H:D2A > R:D2A,AI:!C > AI:L > H:L > R:L,does not qualify,AI:!D2B > AI:D2A > H:~D2A > AI:D2A > H:D2A > AI:D2A > R:D2A,AI:!C > AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P37,d3,B,A,AI:D3B > H:D3A > R:D3A,AI:L > H:C > R:C,does not qualify,AI:D3B > H:!D3B > AI:!D3A > AI:D3B > H:D3B > AI:~D3 > H:D3B > AI:D3A > R:D3A,AI:L > H:!L > AI:!C > AI:L > H:L > AI:C > R:C,does not qualify,1,does not qualify,agreed,,0,1,,4
+P37,d4,B,B,AI:D4B > AI:!D4A > H:D4B > R:D4B,AI:L > AI:!C > H:L > R:L,does not qualify,AI:D4B > AI:!D4A > H:D4B > AI:~D4B > R:D4B,AI:L > AI:!C > H:L > R:L,does not qualify,1,does not qualify,adjudicated,,0,1,,4
+P37,d5,B,E,AI:D5E > AI:!D5A > H:D5A > AI:!D5A > AI:D5E > H:D5E > R:D5E,AI:l > AI:!C > H:C > AI:!C > AI:l > H:l > R:l,does not qualify,AI:!D5A > AI:D5E > H:~D5 > AI:~D5 > H:D5A > H:D5E > AI:!D5A > AI:D5E > H:~D5 > AI:~D5 > H:D5E > H:!D5A > AI:D5E > R:D5E,AI:!C > AI:l > H:C > H:l > R:l,does not qualify,1,does not qualify,agreed,,0,1,,4
+P40,d1,B,B,H:?D1 > AI:D1B > AI:!D1A > H:D1B > H:D1A > AI:D1B > AI:!D1A > H:D1B > R:D1B,AI:L > AI:!C > H:L > H:C > AI:L > AI:!C > H:L > R:L,does not qualify,H:?D1 > AI:D1B > AI:!D1A > H:D1B > AI:~D1B > H:D1B > AI:D1B > AI:!D1A > H:?D1B > AI:D1B > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P40,d2,B,B,AI:~D2 > H:D2A > AI:!D2A > AI:D2B > H:?D2 > AI:D2B > H:D2B > R:D2B,H:C > AI:!C > AI:L > H:L > R:L,opposed,AI:~D2A > H:?D2 > AI:D2B > AI:!D2A > H:~D2B > AI:D2B > AI:!D2A > H:?D2 > AI:D2B > AI:!D2A > H:?D2B > AI:!D2A > AI:D2B > H:D2B > AI:D2B > AI:!D2A > AI:D2B > R:D2B,AI:L > AI:!C > AI:L > AI:!C > AI:L > AI:!C > AI:L > H:L > R:L,does not qualify,0,opposed,adjudicated,A,1,1,3,4
+P40,d3,A,A,AI:D3A > AI:!D3B > H:?D3 > AI:D3A > H:D3A > R:D3A,AI:L > AI:!C > AI:L > H:L > R:L,does not qualify,AI:D3A > AI:!D3B > R:D3A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,adjudicated,,0,1,,4
+P40,d4,A,A,AI:D4A > AI:!D4B > H:D4A > R:D4A,AI:L > AI:!C > H:L > R:L,does not qualify,AI:D4A > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,4
+P40,d5,B,B,AI:D5B > H:D5B > R:D5B,AI:L > H:L > R:L,does not qualify,AI:D5E > AI:D5B > H:D5B > AI:D5B > H:D5B > AI:D5B > R:D5B,AI:l > AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,8
+P41,d1,B,B,,,,H:!D1B > AI:D1B > H:D1B > AI:~D1B > H:D1B > AI:D1B > H:D1B > R:D1B,H:!L > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P41,d2,B,B,,,,H:D2A > AI:D2A > AI:D2B > AI:!D2A > H:~D2B > AI:D2B > AI:!D2A > AI:!D2A > AI:D2B > H:D2B > H:!D2A > R:D2B,H:C > AI:C > AI:L > AI:!C > AI:L > AI:!C > AI:L > H:L > R:L,opposed,,opposed,machine only,A,1,1,4,4
+P41,d3,A,A,,,,H:~D3 > AI:D3A > H:D3A > R:D3A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P41,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P41,d5,A,E,,,,AI:~D5 > H:~D5 > AI:D5E > AI:!D5A > AI:!D5B > AI:!D5B > H:~D5 > AI:!D5A > AI:D5E > AI:!D5B > H:D5E > H:!D5A > H:!D5B > AI:!D5A > AI:!D5B > AI:D5E > H:~D5E > AI:~D5B > H:D5E > H:!D5A > H:!D5B > AI:!D5A > AI:!D5B > AI:D5E > H:D5E > H:!D5A > H:!D5B > R:D5E,AI:l > AI:!L > AI:!C > AI:!L > AI:l > AI:!C > H:l > H:!L > AI:!L > H:!L > AI:!L > H:!L > R:l,does not qualify,,does not qualify,machine only,,0,1,,4
+P42,d1,A,?,,,,AI:~D1A > R:D1?,R:?,does not qualify,,does not qualify,machine only,,0,0,,
+P42,d2,B,B,,,,H:D2B > AI:!D2B > R:D2B,H:L > AI:!L > R:L,does not qualify,,does not qualify,machine only,B,1,0,0,
+P42,d3,A,?,,,,AI:~D3A > R:D3?,R:?,does not qualify,,does not qualify,machine only,,0,0,,
+P42,d4,A,A,,,,AI:~D4 > R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P42,d5,A,A,,,,R:D5A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P43,d1,B,B,,,,AI:D1B > AI:!D1A > H:D1B > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P43,d2,A,A,,,,AI:D2A > AI:!D2B > AI:!D2B > H:?D2B > AI:D2A > AI:!D2B > H:?D2B > AI:!D2B > AI:D2A > H:D2A > R:D2A,AI:L > AI:!C > AI:L > AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P43,d3,A,A,,,,AI:D3A > H:D3A > R:D3A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P43,d4,B,B,,,,AI:D4B > H:?D4B > AI:D4B > H:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P43,d5,A,B,,,,AI:!D5A > AI:!D5B > AI:D5E > AI:D5E > AI:!D5B > H:!D5A > R:D5B,AI:!L > AI:!C > AI:l > AI:!C > H:!L > R:C,does not qualify,,does not qualify,machine only,,0,1,,1
+P44,d1,B,B,H:D1A > AI:D1B > AI:!D1A > H:~D1B > AI:D1B > R:D1B,H:C > AI:L > AI:!C > AI:L > R:L,opposed,H:D1A > AI:D1B > AI:!D1A > H:~D1B > AI:D1B > AI:!D1A > H:~D1B > AI:D1B > AI:!D1A > R:D1B,H:C > AI:L > AI:!C > AI:L > AI:!C > AI:L > AI:!C > R:L,opposed,1,opposed,agreed,A,1,1,2,3
+P44,d2,A,A,AI:D2A > AI:!D2B > H:?D2B > AI:D2A > R:D2A,AI:L > AI:!C > AI:L > R:L,does not qualify,AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > R:D2A,AI:!C > AI:L > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P44,d3,A,A,R:D3A,R:L,does not qualify,AI:~D3A > R:D3A,R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P44,d4,B,B,AI:D4B > H:~D4B > AI:D4B > R:D4B,AI:L > R:L,does not qualify,AI:D4B > AI:!D4A > H:~D4B > AI:D4B > R:D4B,AI:L > AI:!C > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P44,d5,A,A,AI:D5E > AI:!D5A > AI:!D5B > H:D5E > AI:!D5A > R:D5A,AI:l > AI:!L > AI:!C > H:l > AI:!L > R:L,does not qualify,AI:!D5A > AI:!D5B > AI:D5E > AI:D5A > AI:!D5E > AI:D5A > AI:!D5B > H:D5A > AI:D5A > R:D5A,AI:!L > AI:!C > AI:l > AI:L > AI:!l > AI:L > AI:!C > H:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,4
+P45,d1,B,B,H:D1B > AI:D1B > R:D1B,H:L > AI:L > R:L,aligned,H:D1B > AI:D1B > AI:!D1A > H:~D1B > AI:D1B > R:D1B,H:L > AI:L > R:L,aligned,1,aligned,agreed,B,1,1,3,3
+P45,d2,A,A,H:~D2 > AI:D2A > H:D2A > AI:D2A > AI:!D2B > H:~D2B > AI:D2A > H:?D2 > AI:D2A > R:D2A,AI:L > H:L > R:L,does not qualify,AI:D2A > AI:!D2B > H:~D2A > AI:D2A > AI:!D2B > AI:!D2B > AI:!D2A > H:~D2B > AI:!D2B > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > R:D2A,AI:L > AI:!C > AI:L > AI:!C > AI:!L > AI:!C > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,2
+P45,d3,B,B,H:~D3A > AI:D3B > H:~D3A > AI:D3B > R:D3B,AI:L > R:L,does not qualify,AI:!D3A > AI:D3B > H:D3B > AI:D3B > AI:!D3B > AI:D3B > H:~D3B > AI:D3B > H:~D3B > R:D3B,AI:!C > AI:L > H:L > AI:!L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P45,d4,A,A,AI:D4A > R:D4A,AI:L > R:L,does not qualify,AI:D4A > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P45,d5,A,A,AI:D5A > R:D5A,AI:L > R:L,does not qualify,AI:D5A > AI:D5E > R:D5A,AI:L > AI:l > R:L,does not qualify,1,does not qualify,agreed,,0,1,,5
+P46,d1,B,B,,,,H:~D1 > AI:D1B > AI:!D1A > AI:D1A > H:?D1B > AI:D1B > H:~D1B > AI:D1B > H:D1B > AI:D1B > R:D1B,AI:L > AI:!C > AI:C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P46,d2,B,A,,,,H:?D2 > AI:~D2 > H:!D2B > H:D2A > AI:!D2B > AI:D2B > AI:!D2A > H:D2A > AI:D2A > AI:!D2A > H:D2A > AI:D2A > H:D2A > AI:D2A > H:D2A > AI:!D2A > H:~D2A > AI:!D2A > AI:D2B > H:?D2A > AI:!D2A > AI:D2B > AI:D2A > H:~D2A > AI:D2A > H:D2A > AI:D2A > AI:!D2A > AI:D2B > H:D2A > AI:!D2A > AI:D2B > H:~D2A > AI:~D2A > H:~D2A > AI:~D2A > R:D2A,H:!L > H:C > AI:!L > AI:L > AI:!C > H:C > AI:C > AI:!C > AI:!C > AI:L > AI:!C > AI:L > AI:C > AI:!C > AI:L > H:C > AI:!C > AI:L > R:C,opposed,,opposed,machine only,A,1,1,3,3
+P46,d3,B,A,,,,AI:D3A > AI:!D3A > H:~D3 > AI:~D3 > H:~D3A > R:D3A,AI:C > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,0,,
+P46,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P46,d5,A,A,,,,AI:~D5 > H:D5A > AI:~D5 > H:~D5 > AI:~D5E > H:~D5E > AI:~D5A > R:D5A,H:L > R:L,does not qualify,,does not qualify,machine only,A,1,0,19,
+P47,d1,B,B,,,,H:~D1 > AI:~D1 > H:?D1 > AI:D1B > AI:!D1A > H:~D1 > AI:D1B > AI:!D1A > AI:!D1B > H:D1B > AI:D1B > R:D1B,AI:L > AI:!C > AI:L > AI:!C > AI:!L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P47,d2,A,A,,,,H:D2A > AI:D2A > H:~D2A > AI:!D2B > AI:D2A > AI:!D2B > H:D2A > AI:D2A > AI:!D2B > AI:D2A > H:D2B > AI:D2A > H:D2A > AI:~D2A > R:D2A,H:L > AI:L > H:C > AI:L > H:L > R:L,aligned,,aligned,machine only,A,1,1,2,2
+P47,d3,A,A,,,,AI:D3A > AI:!D3B > H:D3B > AI:D3B > AI:D3A > AI:D3A > AI:!D3B > R:D3A,AI:L > AI:!C > H:C > AI:C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P47,d4,A,A,,,,AI:D4A > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P47,d5,B,A,,,,H:~D5B > AI:!D5A > AI:D5E > AI:!D5B > AI:D5B > AI:!D5B > AI:D5E > AI:!D5B > AI:D5E > H:D5A > AI:D5A > AI:D5E > AI:!D5A > R:D5A,AI:!C > AI:l > AI:!L > AI:L > AI:!L > AI:l > AI:!L > AI:l > H:C > AI:C > AI:l > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,1,,5
+P50,d1,A,A,AI:D1A > H:D1A > R:D1A,AI:L > H:L > R:L,does not qualify,AI:D1A > AI:!D1B > AI:!D1B > R:D1A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,5
+P50,d2,B,B,AI:D2B > H:D2B > R:D2B,AI:L > H:L > R:L,does not qualify,AI:!D2B > AI:D2B > AI:!D2A > R:D2B,AI:!L > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,5
+P50,d3,A,A,AI:D3A > AI:!D3B > H:D3A > R:D3A,AI:L > AI:!C > H:L > R:L,does not qualify,AI:D3A > AI:!D3B > R:D3A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,5
+P50,d4,A,A,AI:D4A > H:D4A > R:D4A,AI:L > H:L > R:L,does not qualify,AI:D4A > AI:!D4B > AI:D4B > R:D4A,AI:L > AI:!C > AI:C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,5
+P50,d5,A,A,AI:~D5 > R:D5A,R:L,does not qualify,AI:D5A > AI:!D5E > AI:!D5B > AI:D5E > R:D5A,AI:L > AI:!l > AI:!C > AI:l > R:L,does not qualify,1,does not qualify,adjudicated,,0,0,,
+P51,d1,A,A,,,,H:D1A > AI:D1A > R:D1A,H:L > AI:L > R:L,aligned,,aligned,machine only,A,1,1,3,3
+P51,d2,B,B,,,,H:D2A > AI:D2A > AI:!D2A > AI:D2B > H:~D2A > AI:~D2 > H:D2A > AI:D2A > AI:!D2A > AI:D2B > H:~D2 > AI:D2B > H:~D2A > AI:!D2A > AI:D2B > AI:!D2A > AI:D2B > R:D2B,H:C > AI:C > AI:!C > AI:L > H:C > AI:C > AI:!C > AI:L > AI:!C > AI:L > AI:!C > AI:L > R:L,opposed,,opposed,machine only,A,1,1,3,3
+P51,d3,B,B,,,,AI:~D3B > R:D3B,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P51,d4,A,A,,,,R:D4A,R:L,does not qualify,,does not qualify,machine only,,0,0,,
+P51,d5,A,E,,,,H:~D5 > AI:!D5A > AI:D5E > AI:!D5B > R:D5E,AI:!L > AI:l > AI:!C > R:l,does not qualify,,does not qualify,machine only,,0,1,,8
+P52,d1,B,B,H:D1B > R:D1B,H:L > R:L,does not qualify,H:D1B > AI:D1B > R:D1B,H:L > AI:L > R:L,aligned,0,aligned,adjudicated,B,1,1,1,1
+P52,d2,B,B,H:D2A > AI:!D2A > AI:D2B > H:D2B > R:D2B,H:C > AI:!C > AI:L > H:L > R:L,opposed,H:D2A > AI:D2A > AI:D2B > AI:!D2A > AI:D2A > AI:D2B > H:~D2B > AI:D2B > AI:!D2A > R:D2B,H:C > AI:C > AI:L > AI:!C > AI:C > AI:L > AI:!C > R:L,opposed,1,opposed,agreed,A,1,1,1,1
+P52,d3,B,B,H:D3A > AI:D3B > H:D3B > R:D3B,H:C > AI:L > H:L > R:L,opposed,H:D3A > AI:D3A > AI:D3B > AI:D3A > AI:!D3A > H:~D3B > AI:D3B > AI:!D3A > R:D3B,H:C > AI:C > AI:L > AI:C > AI:!C > AI:L > AI:!C > R:L,opposed,1,opposed,agreed,A,1,1,1,1
+P52,d4,B,B,AI:D4B > H:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,AI:D4B > AI:D4A > H:~D4B > AI:D4B > R:D4B,AI:L > AI:C > AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,1,,1
+P52,d5,B,B,H:D5B > R:D5B,H:L > R:L,does not qualify,AI:D5B > AI:!D5A > R:D5B,AI:L > AI:!C > R:L,does not qualify,1,aligned,adjudicated,,,,,
+P53,d1,B,B,,,,AI:D1B > AI:!D1A > H:~D1 > AI:!D1A > AI:D1B > H:~D1B > AI:D1B > AI:!D1A > H:D1B > AI:D1B > H:~D1B > R:D1B,AI:L > AI:!C > AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P53,d2,A,A,,,,AI:~D2A > H:~D2 > AI:D2A > AI:!D2B > H:~D2 > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > H:D2A > AI:D2A > H:~D2A > R:D2A,AI:L > AI:!C > AI:L > AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,8
+P53,d3,A,A,,,,AI:D3A > H:D3A > AI:D3A > AI:!D3B > H:D3A > AI:D3A > H:~D3A > AI:~D3A > R:D3A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,10
+P53,d4,A,A,,,,AI:D4A > R:D4A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,10
+P53,d5,A,A,,,,AI:~D5B > H:~D5 > AI:D5A > H:D5A > AI:D5A > H:~D5E > R:D5A,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,14
+P54,d1,A,?,,,,AI:D1A > AI:!D1B > H:~D1B > AI:D1A > AI:!D1B > R:D1?,AI:L > AI:!C > AI:L > AI:!C > R:?,does not qualify,,does not qualify,machine only,,0,1,,2
+P54,d2,B,A,,,,H:~D2A > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > AI:!D2B > R:D2A,AI:C > AI:!L > AI:C > AI:!L > R:C,does not qualify,,does not qualify,machine only,,0,0,,
+P54,d3,A,A,,,,AI:D3A > AI:!D3B > H:D3A > AI:D3A > AI:!D3B > AI:D3A > R:D3A,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,2
+P54,d4,B,A,,,,AI:D4B > AI:!D4A > R:D4A,AI:L > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,1,,2
+P54,d5,B,A,,,,AI:!D5A > AI:D5E > AI:!D5B > H:D5A > AI:D5A > AI:!D5B > AI:D5E > AI:D5E > R:D5A,AI:!C > AI:l > AI:!L > H:C > AI:C > AI:l > R:C,does not qualify,,does not qualify,machine only,,0,1,,3
+P55,d1,A,A,,,,AI:~D1 > H:?D1 > AI:D1A > AI:!D1B > H:~D1A > AI:D1A > H:~D1A > AI:~D1A > R:D1A,AI:L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,3
+P55,d2,A,A,,,,AI:~D2A > H:~D2A > AI:D2A > H:?D2 > AI:D2A > AI:!D2B > H:~D2A > AI:D2A > H:?D2A > AI:D2A > H:?D2A > AI:D2A > H:~D2A > AI:D2A > R:D2A,AI:L > AI:!C > AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P55,d3,A,A,,,,AI:D3A > AI:!D3B > H:~D3A > AI:D3A > H:~D3A > AI:D3A > AI:!D3B > H:~D3A > AI:~D3A > R:D3A,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,5
+P55,d4,A,A,,,,AI:D4A > H:~D4A > AI:D4A > R:D4A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,7
+P55,d5,B,E,,,,AI:!D5A > AI:D5E > H:D5A > AI:!D5B > AI:!D5A > AI:D5E > AI:D5A > H:?D5A > AI:!D5A > AI:!D5B > AI:D5E > AI:D5A > AI:D5A > H:~D5E > AI:~D5 > R:D5E,AI:!C > AI:l > H:C > AI:!L > AI:!C > AI:l > AI:C > AI:!C > AI:l > AI:C > R:l,does not qualify,,does not qualify,machine only,,0,1,,7
+P56,d1,A,B,,,,H:D1A > AI:D1A > AI:!D1B > AI:D1A > H:D1A > AI:D1A > AI:!D1B > H:D1B > AI:D1B > AI:D1A > AI:!D1B > AI:D1B > AI:!D1B > R:D1B,H:L > AI:L > H:C > AI:C > AI:L > AI:!C > AI:C > AI:!C > R:C,aligned,,aligned,machine only,A,1,1,1,1
+P56,d2,B,A,,,,AI:!D2B > AI:D2B > H:D2A > AI:D2A > AI:!D2A > AI:D2B > H:~D2B > AI:D2B > AI:!D2B > AI:D2A > H:D2A > AI:D2A > AI:!D2B > R:D2A,AI:!L > AI:L > H:C > AI:C > AI:!C > AI:L > AI:!L > AI:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,1
+P56,d3,B,A,,,,AI:D3B > R:D3A,AI:L > R:C,does not qualify,,does not qualify,machine only,,0,1,,4
+P56,d4,B,B,,,,AI:D4B > R:D4B,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,4
+P56,d5,A,A,,,,AI:!D5B > AI:D5E > AI:D5A > AI:!D5B > AI:!D5A > AI:!D5B > H:!D5E > AI:D5A > AI:!D5B > AI:!D5B > AI:D5E > R:D5A,AI:!C > AI:l > AI:L > AI:!C > AI:!L > AI:!C > H:!l > AI:L > AI:!C > AI:l > R:L,does not qualify,,does not qualify,machine only,,0,1,,8
+P57,d1,B,B,,,,H:?D1 > AI:D1B > AI:!D1A > H:~D1B > AI:~D1B > H:D1B > AI:D1B > R:D1B,AI:L > AI:!C > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P57,d2,B,B,,,,AI:D2B > H:~D2B > AI:~D2B > H:D2B > AI:D2B > H:D2B > AI:D2B > AI:!D2B > R:D2B,AI:L > H:L > AI:!L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P57,d3,A,?,,,,AI:D3A > H:D3B > H:!D3A > R:D3?,AI:L > H:C > H:!L > R:?,does not qualify,,does not qualify,machine only,,0,1,,3
+P57,d4,B,A,,,,AI:D4B > AI:!D4A > AI:D4B > H:D4A > H:!D4B > R:D4A,AI:L > AI:!C > AI:L > H:C > H:!L > R:C,does not qualify,,does not qualify,machine only,,0,1,,3
+P57,d5,A,B,,,,AI:~D5 > H:~D5 > AI:!D5A > AI:!D5B > AI:D5E > H:!D5E > H:D5B > H:!D5E > AI:D5B > H:D5B > AI:~D5B > R:D5B,AI:!L > AI:!C > AI:l > H:!l > H:C > H:!l > AI:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,7
+P58,d1,A,A,H:~D1A > AI:D1A > AI:!D1B > H:~D1A > AI:D1A > R:D1A,AI:L > AI:!C > AI:L > R:L,does not qualify,H:D1A > AI:D1A > AI:!D1B > H:~D1 > AI:D1A > AI:!D1B > H:D1A > AI:D1A > R:D1A,H:L > AI:L > R:L,aligned,0,does not qualify,adjudicated,,0,1,,1
+P58,d2,B,A,AI:D2B > H:D2B > AI:~D2B > H:D2B > AI:~D2 > H:D2A > R:D2A,AI:L > H:L > H:C > R:C,does not qualify,AI:!D2A > AI:D2B > H:D2B > AI:D2B > AI:!D2B > AI:!D2A > H:D2 > AI:D2 > AI:!D2B > AI:!D2A > H:D2A > AI:D2A > AI:!D2A > R:D2A,AI:!C > AI:L > H:L > AI:!L > AI:!L > H:C > AI:C > AI:!C > R:C,does not qualify,1,does not qualify,agreed,,0,1,,1
+P58,d3,A,A,AI:~D3 > R:D3A,R:L,does not qualify,AI:D3A > H:~D3 > R:D3A,AI:L > R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P58,d4,B,B,AI:D4B > H:D4B > AI:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,AI:D4B > AI:!D4A > H:~D4 > R:D4B,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,1,,3
+P58,d5,A,E,H:~D5 > AI:!D5A > AI:!D5B > AI:D5E > R:D5E,AI:!L > AI:!C > AI:l > R:l,does not qualify,H:~D5 > AI:!D5A > AI:!D5B > AI:D5E > AI:!D5A > AI:!D5B > AI:!D5A > AI:D5E > H:~D5 > AI:D5E > AI:!D5A > AI:!D5B > R:D5E,AI:!L > AI:!C > AI:l > AI:!L > AI:!C > AI:!L > AI:l > AI:!L > AI:!C > R:l,does not qualify,1,does not qualify,agreed,,0,1,,4
+P59,d1,B,B,,,,H:?D1 > AI:D1B > AI:!D1A > H:~D1B > AI:D1B > H:~D1B > AI:D1B > H:?D1 > AI:D1B > AI:!D1A > R:D1B,AI:L > AI:!C > AI:L > AI:!C > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P59,d2,B,B,,,,H:?D2 > AI:D2B > AI:!D2A > H:~D2A > AI:!D2A > AI:D2B > H:D2A > AI:D2A > AI:D2B > AI:!D2A > H:~D2A > AI:~D2A > H:~D2B > AI:~D2B > H:~D2A > AI:!D2A > H:~D2B > AI:D2B > H:D2B > AI:D2B > H:?D2 > AI:D2B > AI:!D2A > H:?D2B > AI:!D2B > H:D2B > H:!D2A > AI:D2B > AI:!D2A > AI:!D2A > H:?D2A > AI:D2B > R:D2B,AI:L > AI:!C > AI:L > H:C > AI:C > AI:L > AI:!C > AI:L > H:L > AI:!L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P59,d3,B,B,,,,AI:D3B > AI:D3A > AI:!D3A > H:~D3 > AI:~D3 > H:~D3B > AI:D3B > H:D3B > AI:D3B > H:?D3 > AI:D3B > AI:!D3A > H:?D3B > AI:D3B > H:D3B > AI:D3B > R:D3B,AI:L > AI:C > AI:!C > AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P59,d4,B,B,,,,AI:D4B > H:~D4B > AI:D4B > H:?D4B > AI:D4B > H:~D4 > AI:D4B > H:D4B > AI:D4B > R:D4B,AI:L > H:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P59,d5,A,B,,,,H:?D5 > AI:D5E > AI:!D5B > H:D5A > AI:D5A > H:~D5A > AI:~D5A > H:D5B > AI:D5B > AI:!D5B > AI:D5E > AI:!D5A > AI:!D5E > H:D5B > AI:D5B > AI:!D5B > AI:D5E > AI:!D5A > H:!D5E > AI:!D5E > AI:D5B > R:D5B,AI:l > AI:!C > H:L > H:C > AI:C > AI:!C > AI:l > AI:!L > AI:!l > H:C > AI:C > AI:!C > AI:l > AI:!L > H:!l > AI:!l > AI:C > R:C,does not qualify,,does not qualify,machine only,,0,1,,1
+P60,d1,A,A,,,,H:~D1 > AI:D1A > H:~D1A > AI:~D1B > H:~D1A > AI:~D1A > R:D1A,AI:L > R:L,does not qualify,,does not qualify,machine only,,0,1,,1
+P60,d2,A,A,,,,H:D2A > AI:D2A > H:~D2A > AI:D2A > H:~D2A > AI:~D2A > H:~D2A > AI:~D2A > H:~D2A > AI:~D2A > R:D2A,H:L > AI:L > R:L,aligned,,aligned,machine only,A,1,1,0,1
+P60,d3,B,A,,,,H:~D3A > AI:D3B > AI:!D3A > R:D3A,AI:L > AI:!C > R:C,does not qualify,,does not qualify,machine only,,0,1,,4
+P60,d4,B,A,,,,H:D4A > AI:D4A > H:~D4A > AI:!D4A > AI:D4B > H:~D4A > AI:~D4A > H:~D4A > R:D4A,H:C > AI:C > AI:!C > AI:L > R:C,opposed,,opposed,machine only,A,1,1,4,4
+P60,d5,B,A,,,,H:~D5 > AI:~D5 > H:~D5A > AI:!D5A > AI:D5E > R:D5A,AI:!C > AI:l > R:C,does not qualify,,does not qualify,machine only,,0,1,,6
+P61,d1,B,B,R:D1B,R:L,does not qualify,AI:D1B > AI:!D1A > AI:!D1A > R:D1B,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P61,d2,A,A,R:D2A,R:L,does not qualify,AI:!D2B > AI:D2A > H:~D2A > AI:D2A > AI:!D2B > R:D2A,AI:!C > AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P61,d3,A,A,R:D3A,R:L,does not qualify,AI:D3A > AI:!D3B > R:D3A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P61,d4,A,A,R:D4A,R:L,does not qualify,AI:D4A > AI:!D4B > AI:!D4B > R:D4A,AI:L > AI:!C > R:L,does not qualify,1,does not qualify,agreed,,0,0,,
+P61,d5,B,A,AI:D5E > H:D5A > AI:~D5A > R:D5A,AI:l > H:C > R:C,does not qualify,AI:!D5A > AI:D5E > AI:D5E > AI:D5A > AI:!D5B > H:D5A > AI:D5A > AI:!D5A > AI:D5E > AI:!D5B > H:D5E > AI:~D5A > R:D5A,AI:!C > AI:l > AI:C > AI:!L > H:C > AI:!C > AI:l > AI:!L > H:l > R:C,does not qualify,1,does not qualify,agreed,,0,1,,1
